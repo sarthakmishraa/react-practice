@@ -27,23 +27,23 @@ function CatFact() {
   return (
     <div className="CatFact">
       
-      <div className='grid grid-cols-1 justify-items-center p-8 bg-slate-200'>
-        <h1 className='mb-5'>Practice App</h1>
+      <div className='grid grid-cols-1 justify-items-center mt-10'>
+        <h1 className='mb-5 font-semibold py-3 text-4xl'>Generate a random cat fact</h1>
         {text ? (
-          <button className='font-bold text-white py-2 px-3 bg-sky-500 hover:bg-sky-800 text-xl rounded-md shadow-xl' onClick={handleClick}>Generate another Cat Fact</button>
+          <button className='text-2xl font-bold text-white py-2 px-3 bg-sky-500 hover:bg-sky-800 text-xl rounded-md shadow-xl' onClick={handleClick}>Generate another Cat Fact</button>
         ):(
-          <button className='font-bold text-white py-2 px-3 bg-sky-500 hover:bg-sky-800 text-xl rounded-md shadow-xl' onClick={handleClick}>Generate Cat Fact</button>
+          <button className='text-2xl font-bold text-white py-2 px-3 bg-sky-500 hover:bg-sky-800 text-xl rounded-md shadow-xl' onClick={handleClick}>Generate Cat Fact</button>
         )}
       </div>
 
       <div className='grid justify-items-center'>
         {text ? (
           <>
-            <h3 className='py-3'>Length of fact is {textLength}</h3>
-            <h2 className='px-10'>{text}</h2>
+            <h3 className='font-semibold text-2xl py-3'>Length of fact is {textLength}</h3>
+            <h2 className='font-semibold text-2xl px-10'>{text}</h2>
           </>
         ) : (
-          <h2>Hit the button to generate a cat fact</h2>
+          <h2 className='text-2xl font-semibold py-3'>Hit the button to generate a cat fact</h2>
         )}
       </div>
 

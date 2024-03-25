@@ -34,11 +34,11 @@ function Excuser() {
   return (
     <div className="AgeGuesser">
       <div className='grid justify-items-center mt-10'>
-        <h1 className='font-semibold py-2'>Generate an Excuse</h1>
-        <button className='mb-3 font-bold text-white py-2 px-3 bg-sky-500 hover:bg-sky-800 text-xl rounded-md shadow-xl' onClick={partyExcuseAPI}>Party</button>
-        <button className='mb-3 font-bold text-white py-2 px-3 bg-sky-500 hover:bg-sky-800 text-xl rounded-md shadow-xl' onClick={familyExcuseAPI}>Family</button>        
-        <button className='mb-3 font-bold text-white py-2 px-3 bg-sky-500 hover:bg-sky-800 text-xl rounded-md shadow-xl' onClick={officeExcuseAPI}>Office</button>
-        {excuse ? (<h2 className='font-semibold px-10 py-3'>{excuse}</h2>) : (<h2 className='font-semibold px-10 py-3'>Hit Party/Family/Office button to generate an office excuse</h2>)}
+        <h1 className='mb-5 font-semibold py-3 text-4xl'>Generate an excuse</h1>
+        <button className='mb-5 font-bold text-white py-2 px-5 bg-sky-500 hover:bg-sky-800 text-2xl rounded-md shadow-xl' onClick={partyExcuseAPI}>Party</button>
+        <button className='mb-5 font-bold text-white py-2 px-5 bg-sky-500 hover:bg-sky-800 text-2xl rounded-md shadow-xl' onClick={familyExcuseAPI}>Family</button>        
+        <button className='mb-5 font-bold text-white py-2 px-5 bg-sky-500 hover:bg-sky-800 text-2xl rounded-md shadow-xl' onClick={officeExcuseAPI}>Office</button>
+        {excuse ? (<h2 className='text-2xl font-semibold px-10 py-3'>{excuse}</h2>) : (<h2 className='text-2xl font-semibold px-10 py-3'>Hit Party/Family/Office button to generate an excuse</h2>)}
       </div>
     </div>
   );
