@@ -39,11 +39,11 @@ function CatFact() {
       <div className='grid justify-items-center'>
         {text ? (
           <>
-            <h3 className='font-semibold text-2xl py-3'>Length of fact is {textLength}</h3>
+            <h3 className='font-semibold text-2xl py-5'>Length of fact is {textLength}</h3>
             <h2 className='font-semibold text-2xl px-10'>{text}</h2>
           </>
         ) : (
-          <h2 className='text-2xl font-semibold py-3'>Hit the button to generate a cat fact</h2>
+          <h2 className='text-2xl font-semibold py-5'>Hit the button to generate a cat fact</h2>
         )}
       </div>
 
