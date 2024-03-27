@@ -9,16 +9,19 @@ import About from './components/About';
 
 function App() {
   return (
-    <Router>
-      <Navbar />
-      <Routes>
-        <Route exact path='/' element={<Home />} />
-        <Route path='/excuser' element={<Excuser />} />
-        <Route path='/catfact' element={<CatFact />} />
-        <Route path='/ageguesser' element={<AgeGuesser />} />
-        <Route path='/about' element={<About />} />
-      </Routes>
-    </Router>
+    <div className='App'>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route exact path='/' element={<Home />} />
+          <Route path='/excuser' element={<Excuser />} />
+          <Route path='/catfact' element={<CatFact />} />
+          <Route path='/ageguesser' element={<AgeGuesser />} />
+          <Route path='/about' element={<About />} />
+          <Route path='*' element={<h1 className='text-center font-semibold text-4xl p-10'>Error 404: Looks like this page does not exist</h1>} />
+        </Routes>
+      </Router>
+    </div>
   );
 }
 
