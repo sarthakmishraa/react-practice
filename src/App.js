@@ -9,6 +9,7 @@ import Excuser from './components/Excuser';
 import GenderGuess from './components/GenderGuess';
 import Home from './components/Home';
 import Profile from './components/Profile';
+import Sidebar from './components/Sidebar';
 import About from './components/About';
 import { useState, createContext } from 'react';
 
@@ -22,6 +23,7 @@ function App() {
       <AppContext.Provider value={{username, setUsername}}>
         <Router>
           <Navbar />
+          <Sidebar />
           <Routes>
             <Route exact path='/' element={<Home />} />
             <Route path='/about' element={<About />} />
