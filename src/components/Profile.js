@@ -8,7 +8,7 @@ function Profile() {
   return (
     <>
       <div className="bg-slate-200 p-5 mt-10">
-        <h1 className="font-semibold ml-10">Profile Page</h1>
+        <h1 className="font-semibold ml-10 text-2xl text-center">Profile Page</h1>
       </div>
       <div className="grid justify-items-center mt-5 gap-y-3">
         <h2 className="text-2xl text-center font-semibold">Set a new username</h2>

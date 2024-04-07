@@ -26,7 +26,7 @@ function RandomFact() {
       
       <h2 className="mb-5 font-semibold py-3 text-2xl">Hit the button to get a random fact</h2>
       <button className="active:scale-75 transition duration-50 text-2xl font-bold text-white py-2 px-3 bg-sky-500 hover:bg-sky-800 text-xl rounded-md shadow-xl" onClick={getRandomFact}>Random Fact</button>
-      <h2 className="font-semibold py-3 text-2xl">{randomfact}</h2>
+      <h2 className="font-semibold py-3 text-wrap text-2xl">{randomfact}</h2>
     </div>
   );
 }

@@ -6,7 +6,7 @@ function Home() {
   return (
     <>
       <div className="bg-slate-200 py-5 px-5 mt-10">
-        <h1 className="font-semibold ml-10">Home Page</h1>
+        <h1 className="font-semibold text-2xl text-center ml-10">Home Page</h1>
       </div>
       <h2 className="p-5 text-2xl text-center font-semibold">Current username: {username}</h2>
     </>
