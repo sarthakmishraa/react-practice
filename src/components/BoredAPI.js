@@ -14,7 +14,7 @@ function BoredAPI() {
 
   return (
     <div className="grid grid-cols-1 justify-items-center mt-10">
-      <h1 className="mb-5 font-semibold py-3 text-4xl">Lets get you do something and kill your boredom</h1>
+      <h1 className="mb-5 font-semibold py-3 text-4xl">Lets get you do something and kill your boredom (axios)</h1>
       <h2 className="font-semibold text-2xl mb-5">Enter no of participants</h2>
       <input className="rounded-md border-solid border-2 border-black px-2 py-1 mb-5" type="number" placeholder="Default is 1" onChange={(event) => {setParticipants(event.target.value)}}/>
       

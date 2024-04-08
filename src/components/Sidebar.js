@@ -10,6 +10,8 @@ function Sidebar() {
       {showButton &&
         <div className="mt-5">
           <li className='list-none mb-3 font-bold text-slate-300 py-2 px-3 bg-sky-800 hover:bg-sky-600 text-xl rounded-md shadow-xl'><Link to="/profile">Profile</Link></li>
+          <li className='list-none mb-3 font-bold text-slate-300 py-2 px-3 bg-sky-800 hover:bg-sky-600 text-xl rounded-md shadow-xl'><Link to="/form">Form</Link></li>
+          <li className='list-none mb-3 font-bold text-slate-300 py-2 px-3 bg-sky-800 hover:bg-sky-600 text-xl rounded-md shadow-xl'><Link to="/counter">Counter</Link></li>
           <li className='list-none mb-3 font-bold text-slate-300 py-2 px-3 bg-sky-800 hover:bg-sky-600 text-xl rounded-md shadow-xl'><Link to="/excuser">Get an excuse</Link></li>
           <li className='list-none mb-3 font-bold text-slate-300 py-2 px-3 bg-sky-800 hover:bg-sky-600 text-xl rounded-md shadow-xl'><Link to="/catfact">Cat Fact</Link></li>
           <li className='list-none mb-3 font-bold text-slate-300 py-2 px-3 bg-sky-800 hover:bg-sky-600 text-xl rounded-md shadow-xl'><Link to="/randomfact">Random Fact</Link></li>

@@ -18,7 +18,7 @@ function AgeGuesser() {
   return (
     <div className="AgeGuesser">
       <div className='grid justify-items-center mt-10'>
-        <h1 className='mb-5 font-semibold py-3 text-4xl'>Age Guesser</h1>
+        <h1 className='mb-5 font-semibold py-3 text-4xl'>Age Guesser (axios)</h1>
         <input className='rounded-md border-solid border-2 border-black px-2 py-1 mb-5' type='text' onChange={handleInput} placeholder='Enter your name'/>
         <button className='active:scale-75 transition duration-50 mb-5 font-bold text-white py-2 px-3 bg-sky-500 hover:bg-sky-800 text-2xl rounded-md shadow-xl' onClick={predictAge}>Predict Age</button>
         {data ? (

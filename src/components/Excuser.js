@@ -34,7 +34,7 @@ function Excuser() {
   return (
     <div className="AgeGuesser">
       <div className='grid justify-items-center mt-10'>
-        <h1 className='mb-5 font-semibold py-3 text-4xl'>Generate an excuse</h1>
+        <h1 className='mb-5 font-semibold py-3 text-4xl'>Generate an excuse (axios, useEffect)</h1>
         <button className='active:scale-75 transition duration-50 mb-5 font-bold text-white py-2 px-5 bg-sky-500 hover:bg-sky-800 text-2xl rounded-md shadow-xl' onClick={partyExcuseAPI}>Party</button>
         <button className='active:scale-75 transition duration-50 mb-5 font-bold text-white py-2 px-5 bg-sky-500 hover:bg-sky-800 text-2xl rounded-md shadow-xl' onClick={familyExcuseAPI}>Family</button>        
         <button className='active:scale-75 transition duration-50 mb-5 font-bold text-white py-2 px-5 bg-sky-500 hover:bg-sky-800 text-2xl rounded-md shadow-xl' onClick={officeExcuseAPI}>Office</button>

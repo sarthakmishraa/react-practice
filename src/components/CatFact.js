@@ -28,7 +28,7 @@ function CatFact() {
     <div className="CatFact">
       
       <div className='grid grid-cols-1 justify-items-center mt-10'>
-        <h1 className='mb-5 font-semibold py-3 text-4xl'>Generate a random cat fact</h1>
+        <h1 className='mb-5 font-semibold py-3 text-4xl'>Generate a random cat fac (fetch, useEffect)</h1>
         {text ? (
           <button className='active:scale-75 transition duration-50 text-2xl font-bold text-white py-2 px-3 bg-sky-500 hover:bg-sky-800 text-xl rounded-md shadow-xl' onClick={HandleClick}>Generate another Cat Fact</button>
         ):(

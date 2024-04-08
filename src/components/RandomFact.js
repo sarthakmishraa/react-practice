@@ -17,7 +17,7 @@ function RandomFact() {
 
   return (
     <div className="grid grid-cols-1 justify-items-center mt-10">
-      <h1 className="mb-5 font-semibold py-3 text-4xl">Get useless random facts</h1>
+      <h1 className="mb-5 font-semibold py-3 text-4xl">Get useless random facts (axios)</h1>
       {todaysFact ? (
         <h2 className="mb-5 font-semibold py-3 text-2xl mb-20">Random useless fact of the day: {todaysFact}</h2>
       ) : (

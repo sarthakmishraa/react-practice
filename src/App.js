@@ -4,11 +4,13 @@ import Navbar from './components/Navbar';
 import CatFact from './components/CatFact';
 import BoredAPI from './components/BoredAPI';
 import RandomFact from './components/RandomFact'
+import Counter from './components/Counter';
 import AgeGuesser from './components/AgeGuesser';
 import Excuser from './components/Excuser';
 import GenderGuess from './components/GenderGuess';
 import Home from './components/Home';
 import Profile from './components/Profile';
+import Form from './components/Form';
 import Sidebar from './components/Sidebar';
 import About from './components/About';
 import { useState, createContext } from 'react';
@@ -33,7 +35,9 @@ function App() {
               <Route path='/ageguesser' element={<AgeGuesser />} />
               <Route path='/boredapi' element={<BoredAPI />} />
               <Route path='/catfact' element={<CatFact />} />
+              <Route path='/counter' element={<Counter />} />
               <Route path='/excuser' element={<Excuser />} />
+              <Route path='/form' element={<Form />} />
               <Route path='/genderguess' element={<GenderGuess />} />
               <Route path='/profile' element={<Profile />} />
               <Route path='/randomfact' element={<RandomFact />} />
